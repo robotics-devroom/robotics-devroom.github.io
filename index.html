@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Site - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #ffffff;
+            font-family: 'Times New Roman', serif;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .text {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #000000;
+            text-align: center;
+            letter-spacing: 0.02em;
+            position: relative;
+            line-height: 1.6;
+        }
+        
+        .blank {
+            opacity: 1;
+            transition: opacity 0.8s ease-out;
+        }
+        
+        .blank.fade-out {
+            opacity: 0;
+        }
+        
+        .robots {
+            opacity: 0;
+            transition: opacity 0.8s ease-in;
+        }
+        
+        .robots.fade-in {
+            opacity: 1;
+        }
+        
+        .robot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            z-index: 5;
+        }
+        
+        .robot-body {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #00d4ff, #0099cc);
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        .robot-eye {
+            width: 3px;
+            height: 3px;
+            background: #ffffff;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            box-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+        }
+        
+        .robot-eye.left {
+            left: 5px;
+        }
+        
+        .robot-eye.right {
+            right: 5px;
+        }
+        
+        .robot-antenna {
+            width: 1px;
+            height: 4px;
+            background: #00d4ff;
+            position: absolute;
+            top: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .robot-antenna::after {
+            content: '';
+            width: 2px;
+            height: 2px;
+            background: #ff6b6b;
+            border-radius: 50%;
+            position: absolute;
+            top: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: blink 1.5s infinite;
+        }
+        
+        .flying-robot {
+            background: linear-gradient(45deg, #4ecdc4, #44a08d);
+        }
+        
+        .flying-robot .robot-body {
+            background: linear-gradient(45deg, #4ecdc4, #44a08d);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
+        }
+        
+        .flying-robot::before {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -8px;
+            right: -8px;
+            height: 1px;
+            background: rgba(78, 205, 196, 0.8);
+            border-radius: 50%;
+            animation: rotor 0.1s linear infinite;
+        }
+        
+        .flying-robot::after {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -8px;
+            right: -8px;
+            height: 1px;
+            background: rgba(78, 205, 196, 0.6);
+            border-radius: 50%;
+            animation: rotor 0.1s linear infinite reverse;
+        }
+        
+        @keyframes glow {
+            from { box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3); }
+            to { box-shadow: 0 6px 25px rgba(0, 212, 255, 0.6); }
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+        
+        @keyframes rotor {
+            from { transform: rotateZ(0deg); }
+            to { transform: rotateZ(360deg); }
+        }
+        
+        .stars {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <div class="container">
+        <div class="text">
+            This page is intentionally left <span class="blank" id="blankText">blank</span><span class="robots" id="robotsText">full of robots</span>
+        </div>
+    </div>
+
+    <script>
+        // Create stars
+        function createStars() {
+            const starsContainer = document.querySelector('.stars');
+            for (let i = 0; i < 50; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                star.style.width = Math.random() * 3 + 1 + 'px';
+                star.style.height = star.style.width;
+                star.style.animationDelay = Math.random() * 3 + 's';
+                starsContainer.appendChild(star);
+            }
+        }
+        
+        // Create robot
+        function createRobot(x, y, isFlying = false) {
+            const robot = document.createElement('div');
+            robot.className = `robot ${isFlying ? 'flying-robot' : ''}`;
+            robot.style.left = x + 'px';
+            robot.style.top = y + 'px';
+            
+            const body = document.createElement('div');
+            body.className = 'robot-body';
+            
+            if (!isFlying) {
+                const leftEye = document.createElement('div');
+                leftEye.className = 'robot-eye left';
+                body.appendChild(leftEye);
+                
+                const rightEye = document.createElement('div');
+                rightEye.className = 'robot-eye right';
+                body.appendChild(rightEye);
+                
+                const antenna = document.createElement('div');
+                antenna.className = 'robot-antenna';
+                body.appendChild(antenna);
+            }
+            
+            robot.appendChild(body);
+            document.body.appendChild(robot);
+            
+            return robot;
+        }
+        
+        // Animate robot movement
+        function animateRobot(robot, isFlying = false) {
+            let x = parseInt(robot.style.left);
+            let y = parseInt(robot.style.top);
+            let vx = (Math.random() - 0.5) * 4;
+            let vy = (Math.random() - 0.5) * 4;
+            
+            if (isFlying) {
+                vx *= 1.5;
+                vy *= 1.5;
+            }
+            
+            function move() {
+                x += vx;
+                y += vy;
+                
+                // Bounce off edges
+                if (x <= 0 || x >= window.innerWidth - 20) {
+                    vx = -vx;
+                    x = Math.max(0, Math.min(window.innerWidth - 20, x));
+                }
+                if (y <= 0 || y >= window.innerHeight - 20) {
+                    vy = -vy;
+                    y = Math.max(0, Math.min(window.innerHeight - 20, y));
+                }
+                
+                robot.style.left = x + 'px';
+                robot.style.top = y + 'px';
+                
+                // Add some randomness to movement
+                if (Math.random() < 0.02) {
+                    vx += (Math.random() - 0.5) * 0.5;
+                    vy += (Math.random() - 0.5) * 0.5;
+                    
+                    // Limit speed
+                    const maxSpeed = isFlying ? 6 : 4;
+                    const speed = Math.sqrt(vx * vx + vy * vy);
+                    if (speed > maxSpeed) {
+                        vx = (vx / speed) * maxSpeed;
+                        vy = (vy / speed) * maxSpeed;
+                    }
+                }
+                
+                requestAnimationFrame(move);
+            }
+            
+            move();
+        }
+        
+        // Main animation sequence
+        function startAnimation() {
+            setTimeout(() => {
+                // Create robots that will "work" on the text
+                const textElement = document.querySelector('.text');
+                const textRect = textElement.getBoundingClientRect();
+                
+                // Create worker robots
+                const workerRobots = [];
+                for (let i = 0; i < 3; i++) {
+                    const robot = createRobot(
+                        Math.random() * window.innerWidth,
+                        Math.random() * window.innerHeight
+                    );
+                    workerRobots.push(robot);
+                    
+                    // Move towards text
+                    const targetX = textRect.left + textRect.width * 0.7 + Math.random() * 100 - 50;
+                    const targetY = textRect.top + textRect.height / 2 + Math.random() * 60 - 30;
+                    
+                    const startX = parseInt(robot.style.left);
+                    const startY = parseInt(robot.style.top);
+                    
+                    let progress = 0;
+                    function moveToText() {
+                        progress += 0.02;
+                        if (progress <= 1) {
+                            const currentX = startX + (targetX - startX) * progress;
+                            const currentY = startY + (targetY - startY) * progress;
+                            robot.style.left = currentX + 'px';
+                            robot.style.top = currentY + 'px';
+                            requestAnimationFrame(moveToText);
+                        } else {
+                            // Start free movement after reaching text
+                            setTimeout(() => animateRobot(robot), 500);
+                        }
+                    }
+                    moveToText();
+                }
+                
+                // Change text after robots arrive
+                setTimeout(() => {
+                    document.getElementById('blankText').classList.add('fade-out');
+                    document.getElementById('robotsText').classList.add('fade-in');
+                    
+                    // Add more robots after text change
+                    setTimeout(() => {
+                        for (let i = 0; i < 4; i++) {
+                            const robot = createRobot(
+                                Math.random() * window.innerWidth,
+                                Math.random() * window.innerHeight,
+                                i % 2 === 0 // Make every other robot flying
+                            );
+                            animateRobot(robot, i % 2 === 0);
+                        }
+                    }, 1000);
+                    
+                }, 1500);
+                
+            }, 2000);
+        }
+        
+        // Initialize
+        startAnimation();
+        
+        // Add click interaction for robots
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.robot')) {
+                const robot = e.target.closest('.robot');
+                robot.style.transform = 'scale(1.2)';
+                setTimeout(() => {
+                    robot.style.transform = 'scale(1)';
+                }, 200);
+            }
+        });
+    </script>
+</body>
+</html>
