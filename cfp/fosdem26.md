@@ -3,47 +3,60 @@ layout: page
 title: Call for Participation 2026
 ---
 
-# Fosdem 26 Call for Participation
+# FOSDEM 2026 Call for Participation
 
-We're excited to announce the second Robotics and Simulation devroom at FOSDEM 2026, scheduled for Saturday, January 31!
+We're excited to host the second Robotics and Simulation devroom at FOSDEM 2026 on Saturday, January 31. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
 
-### Summary
-A Robotics and Simulation dev room at FOSDEM, focused on core robotics libraries, frameworks, simulation tools, and open-source platforms. The selected talks will cover key tools like robotics frameworks as well as modern AI trends, showcasing advancements and projects in the field. The event will feature presentations, a lightning talk session and a demo session, offering a platform for developers to share work and foster collaboration. 
+The Robotics and Simulation devroom spotlights core libraries, frameworks, simulation tooling, and open-source robotic platforms. Selected talks will highlight foundational capabilities alongside emerging AI-driven approaches, celebrating practical advancements and lessons learned. Expect focused presentations, a lightning talk burst, and a demo session—each designed to share real work and spark collaboration.
 
-### Scope of Talks
+## Scope of Talks
 
-Due to the varied and interdisciplinary nature of robotics as a field, numerous topics could fit a ‘Robotics and Simulation’ devroom. To help the speakers target their presentations to a specific audience and to minimize the overlap with other established FOSDEM devrooms, we defined the scope of this devroom by listing key areas of interest:
-* Core robotics libraries and applications. Mapping, planning, localization, perception, and control solutions would fit this category. For example, [Cartographer], [OMPL], [grid_map], [Octomap], [PCL], [OpEn], [OpenRMF].
-* Frameworks used when building robotics applications. Examples include [ROS], [Dora-RS], [OpenRR], [YARP], [Zenoh],  [Copper-rs], and [Eclipse iceoryx].
-* Specific robotic simulation software like [Gazebo], [Coppelia], or simulations using non-robotic tools, like [Bevy], [Godot], [Isaac Sim], [MuJoCo].
-* Robotic-specific devops and related tooling, like [webviz], [MCAP].
-* Robotics platforms friendly for open source development, like [Arduino], [Crazyflie], [Turtlebot].
-* Robotic products implemented using open source software. This can include examples of AI methods used to teach robots to perform specific tasks or control robots using LLMs; for example: [dora-rs], [ros2ai], [robo-gym], [LeRobot].
+Robotics is inherently interdisciplinary, so our scope is intentionally broad while respecting neighboring FOSDEM devrooms. To help you tune your proposal, here are key areas of interest:
+* Core robotics libraries and applications: mapping, planning, localization, perception, and control. Examples include [Cartographer], [OMPL], [grid_map], [Octomap], [PCL], [OpEn], [OpenRMF].
+* Frameworks for building robotics applications: [ROS], [Dora-RS], [OpenRR], [YARP], [Zenoh], [Copper-rs], [iceoryx].
+* Simulation software: dedicated tools like [Gazebo], [Coppelia], [Isaac Sim], plus creative uses of general engines such as [Bevy], [Godot], [MuJoCo].
+* DevOps and developer tooling specific to robotics: e.g. visualization, logging, data formats—[webviz], [MCAP].
+* Open-source-friendly hardware platforms: [Arduino], [Crazyflie], [Turtlebot].
+* Robotic products and applied open-source stacks, including AI/LLM-driven methods for skill acquisition or control: [dora-rs], [ros2ai], [robo-gym], [LeRobot].
 
-The examples mentioned are meant to be descriptive and not restricted. Talks could be improvements to any of the mentioned packages, interesting uses of them, alternatives with different degrees of maturity, or totally unrelated to them.
+These examples are illustrative, not limiting. You can present improvements to any listed project, novel uses, emerging alternatives at any maturity level, or something entirely different. If in doubt—submit!
 
+[Arduino]: //arduino.cc
+[Bevy]: //bevyengine.org/
 [Cartographer]: //google-cartographer.readthedocs.io
-[OMPL]: //ompl.kavrakilab.org
-[grid_map]: //github.com/ANYbotics/grid_map
-[Octomap]: //octomap.github.io
-[PCL]: //pointclouds.org
-[OpEn]: //alphaville.github.io/optimization-engine/
-[OpenRMF]: //www.open-rmf.org
-[Zennoh]: //zenoh.io/
+[Coppelia]: //manual.coppeliarobotics.com/
 [Copper-rs]: //github.com/copper-project/copper-rs
+[Crazyflie]: //bitcraze.io/products/crazyflie-2-1-plus/
+[dora-rs]: //dora-rs.ai
 [Eclipse iceoryx]: //iceoryx.io/
 [Gazebo]: //gazebosim.org/home
-[Coppelia]: //manual.coppeliarobotics.com/
-[Bevy]: //bevyengine.org/
 [Godot]: //godotengine.org/
+[grid_map]: //github.com/ANYbotics/grid_map
+[iceoryx]: //iceoryx.io/
 [Isaac Sim]: //github.com/isaac-sim/IsaacSim
-[MuJoCo]: //github.com/google-deepmind/mujoco
-[webviz]: //webviz.io
-[MCAP]: //mcap.dev
-[Arduino]: //arduino.cc
-[Crazyflie]: //bitcraze.io/products/crazyflie-2-1-plus/
-[Turtlebot]: //www.turtlebot.com
-[dora-rs]: //dora-rs.ai
-[ros2ai]: //github.com/fujitatomoya/ros2ai
-[robo-gym]: //www.robogym.net
 [LeRobot]: //huggingface.co/docs/lerobot/
+[MCAP]: //mcap.dev
+[MuJoCo]: //github.com/google-deepmind/mujoco
+[Octomap]: //octomap.github.io
+[OMPL]: //ompl.kavrakilab.org
+[OpEn]: //alphaville.github.io/optimization-engine/
+[OpenRMF]: //www.open-rmf.org
+[OpenRR]: //github.com/openrr/openrr
+[PCL]: //pointclouds.org
+[robo-gym]: //www.robogym.net
+[ROS]: //ros.org/
+[ros2ai]: //github.com/fujitatomoya/ros2ai
+[Turtlebot]: //www.turtlebot.com
+[webviz]: //webviz.io
+[YARP]: //www.yarp.it/latest/
+[Zenoh]: //zenoh.io/
+
+## Key Dates
+* 1st December: CfP submission deadline
+* 15th December: Announcement of selected talks
+* 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
+All deadlines are at 00:00 UTC+1.
+
+## Submission process
+Please submit your proposals at https://fosdem.org/submit before the 1st of December 2025, 00:00  (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
+When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu.
