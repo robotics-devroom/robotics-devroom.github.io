@@ -22,7 +22,7 @@ title: Robotics and Simulation Devroom
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Site of the Robotics and Simulation Devroom at FOSDEM 2026
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://robotics-devroom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  robotics-devroom
 
