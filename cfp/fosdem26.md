@@ -52,11 +52,24 @@ These examples are illustrative, not limiting. You can present improvements to a
 [Zenoh]: //zenoh.io/
 
 ## Key Dates
-* 1st December: CfP submission deadline
+* 16th of November 22:00 (UTC+1): CfP submission deadline
 * 15th December: Announcement of selected talks
 * 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
-All deadlines are at 00:00 UTC+1.
+
+## Talk formats
+* Full length talk: 40 mins + 5 mins for Q&A
+* Mid length talk: 20mins + 5 mins for Q&A
+* Lightning talks: 10 mins OR 5 mins
+* Demos: TBD
 
 ## Submission process
-Please submit your proposals at https://fosdem.org/submit before the 1st of December 2025, 00:00  (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
-When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu.
+Please submit your proposals at https://fosdem.org/submit before 2025-11-16 22:00 (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
+When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu and specify the length of the talk.
+
+## Committee
+
+Arnaud Taffanel (Bitcraze)
+Fred Gurr (Eclipse Foundation)
+Lucas Chiesa (Ekumen)
+Kimberly McGuire (Robotics Freelancer)
+Mat Sadowski (Weekly Robotics)
