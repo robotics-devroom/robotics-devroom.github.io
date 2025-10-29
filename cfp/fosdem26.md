@@ -21,6 +21,41 @@ Robotics is inherently interdisciplinary, so our scope is intentionally broad wh
 
 These examples are illustrative, not limiting. You can present improvements to any listed project, novel uses, emerging alternatives at any maturity level, or something entirely different. If in doubt—submit!
 
+## Key Dates
+* 16th of November 22:00 (UTC+1): CfP submission deadline
+* 15th December: Announcement of selected talks
+* 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
+
+## Talk formats
+* Full length talk: 40 mins + 5 mins for Q&A
+* Mid length talk: 20mins + 5 mins for Q&A
+* Lightning talks: 10 mins OR 5 mins
+* Demos: TBD
+
+## Submission process
+Please submit your proposals at https://fosdem.org/submit before 2025-11-16 22:00 (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
+When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu and specify the length and format of the talk.
+
+## Requirements
+The conference language is English. By participating in the event, you agree to the publication of your recordings, slides and other content provided under the Creative Commons Attribution ([CC-BY]) license. By participating in FOSDEM, you are required to adhere to the [FOSDEM Code of Conduct].
+
+## New to FOSDEM? Quick Primer
+* What: FOSDEM is a free (no registration fee) community-driven conference about Free and Open Source Software, held annually in Brussels.
+* Cost: Attendance is free; you cover your own travel, food, and accommodation. Hotels fill fast—book early.
+* Format: Parallel devrooms, main tracks, lightning talks, stands, and lots of hallway conversations.
+* Getting Around: Venue is walkable; expect busy corridors. Pack a reusable water bottle and label your laptop.
+
+If this is your first FOSDEM talk, that's fine—great ideas matter more than prior speaking experience!
+
+## Committee
+
+Arnaud Taffanel (Bitcraze)
+Fred Gurr (Eclipse Foundation)
+Lucas Chiesa (Ekumen)
+Kimberly McGuire (Robotics Freelancer)
+Mat Sadowski (Weekly Robotics)
+
+
 [Arduino]: //arduino.cc
 [Bevy]: //bevyengine.org/
 [Cartographer]: //google-cartographer.readthedocs.io
@@ -50,26 +85,5 @@ These examples are illustrative, not limiting. You can present improvements to a
 [webviz]: //webviz.io
 [YARP]: //www.yarp.it/latest/
 [Zenoh]: //zenoh.io/
-
-## Key Dates
-* 16th of November 22:00 (UTC+1): CfP submission deadline
-* 15th December: Announcement of selected talks
-* 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
-
-## Talk formats
-* Full length talk: 40 mins + 5 mins for Q&A
-* Mid length talk: 20mins + 5 mins for Q&A
-* Lightning talks: 10 mins OR 5 mins
-* Demos: TBD
-
-## Submission process
-Please submit your proposals at https://fosdem.org/submit before 2025-11-16 22:00 (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
-When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu and specify the length of the talk.
-
-## Committee
-
-Arnaud Taffanel (Bitcraze)
-Fred Gurr (Eclipse Foundation)
-Lucas Chiesa (Ekumen)
-Kimberly McGuire (Robotics Freelancer)
-Mat Sadowski (Weekly Robotics)
+[FOSDEM Code of Conduct]: //fosdem.org/2026/practical/conduct/
+[CC-BY]: //creativecommons.org/licenses/by/2.0/be/deed.en
