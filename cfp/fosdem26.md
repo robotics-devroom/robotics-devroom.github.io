@@ -49,11 +49,11 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 
 ## Committee
 
-Arnaud Taffanel (Bitcraze)
-Fred Gurr (Eclipse Foundation)
-Lucas Chiesa (Ekumen)
-Kimberly McGuire (Robotics Freelancer)
-Mat Sadowski (Weekly Robotics)
+* Arnaud Taffanel (Bitcraze)
+* Fred Gurr (Eclipse Foundation)
+* Lucas Chiesa (Ekumen)
+* Kimberly McGuire (Robotics Freelancer)
+* Mat Sadowski (Weekly Robotics)
 
 
 [Arduino]: //arduino.cc
