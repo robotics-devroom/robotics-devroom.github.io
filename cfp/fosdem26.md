@@ -33,7 +33,7 @@ These examples are illustrative, not limiting. You can present improvements to a
 * Demos: TBD
 
 ## Submission process
-Please [submit your proposals](https://fosdem.org/submit) before 2025-12-01 22:00 (Europe/Brussels UTC+1).
+Please [submit your proposals](https://fosdem.org/submit) before the end of 2025-12-01.
 
 If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
 
