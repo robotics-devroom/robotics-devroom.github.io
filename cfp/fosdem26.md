@@ -22,7 +22,7 @@ Robotics is inherently interdisciplinary, so our scope is intentionally broad wh
 These examples are illustrative, not limiting. You can present improvements to any listed project, novel uses, emerging alternatives at any maturity level, or something entirely different. If in doubt—submit!
 
 ## Key Dates
-* 16th of November 22:00 (UTC+1): CfP submission deadline
+* 1st of December: Proposals submission deadline
 * 15th December: Announcement of selected talks
 * 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
 
@@ -33,7 +33,10 @@ These examples are illustrative, not limiting. You can present improvements to a
 * Demos: TBD
 
 ## Submission process
-Please submit your proposals at https://fosdem.org/submit before 2025-11-16 22:00 (Europe/Brussels UTC+1). If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
+Please [submit your proposals](https://fosdem.org/submit) before 2025-12-01 22:00 (Europe/Brussels UTC+1).
+
+If you already have an account from a previous year, you should reuse it so all recorded FOSDEM contributions are associated with your profile.
+
 When submitting your proposal, select 'Robotics and Simulation' from the track drop-down menu and specify the length and format of the talk.
 
 ## Requirements
@@ -47,7 +50,7 @@ The conference language is English. By participating in the event, you agree to 
 
 If this is your first FOSDEM talk, that's fine—great ideas matter more than prior speaking experience!
 
-## Committee
+## Devroom Committee
 
 * Arnaud Taffanel (Bitcraze)
 * Fred Gurr (Eclipse Foundation)
@@ -56,34 +59,34 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 * Mat Sadowski (Weekly Robotics)
 
 
-[Arduino]: //arduino.cc
-[Bevy]: //bevyengine.org/
-[Cartographer]: //google-cartographer.readthedocs.io
-[Coppelia]: //manual.coppeliarobotics.com/
-[Copper-rs]: //github.com/copper-project/copper-rs
-[Crazyflie]: //bitcraze.io/products/crazyflie-2-1-plus/
-[dora-rs]: //dora-rs.ai
-[Eclipse iceoryx]: //iceoryx.io/
-[Gazebo]: //gazebosim.org/home
-[Godot]: //godotengine.org/
-[grid_map]: //github.com/ANYbotics/grid_map
-[iceoryx]: //iceoryx.io/
-[Isaac Sim]: //github.com/isaac-sim/IsaacSim
-[LeRobot]: //huggingface.co/docs/lerobot/
-[MCAP]: //mcap.dev
-[MuJoCo]: //github.com/google-deepmind/mujoco
-[Octomap]: //octomap.github.io
-[OMPL]: //ompl.kavrakilab.org
-[OpEn]: //alphaville.github.io/optimization-engine/
-[OpenRMF]: //www.open-rmf.org
-[OpenRR]: //github.com/openrr/openrr
-[PCL]: //pointclouds.org
-[robo-gym]: //www.robogym.net
-[ROS]: //ros.org/
-[ros2ai]: //github.com/fujitatomoya/ros2ai
-[Turtlebot]: //www.turtlebot.com
-[webviz]: //webviz.io
-[YARP]: //www.yarp.it/latest/
-[Zenoh]: //zenoh.io/
-[FOSDEM Code of Conduct]: //fosdem.org/2026/practical/conduct/
-[CC-BY]: //creativecommons.org/licenses/by/2.0/be/deed.en
+[Arduino]: https://arduino.cc
+[Bevy]: https://bevyengine.org/
+[Cartographer]: https://google-cartographer.readthedocs.io
+[Coppelia]: https://manual.coppeliarobotics.com/
+[Copper-rs]: https://github.com/copper-project/copper-rs
+[Crazyflie]: https://bitcraze.io/products/crazyflie-2-1-plus/
+[dora-rs]: https://dora-rs.ai
+[Eclipse iceoryx]: https://iceoryx.io/
+[Gazebo]: https://gazebosim.org/home
+[Godot]: https://godotengine.org/
+[grid_map]: https://github.com/ANYbotics/grid_map
+[iceoryx]: https://iceoryx.io/
+[Isaac Sim]: https://github.com/isaac-sim/IsaacSim
+[LeRobot]: https://huggingface.co/docs/lerobot/
+[MCAP]: https://mcap.dev
+[MuJoCo]: https://github.com/google-deepmind/mujoco
+[Octomap]: https://octomap.github.io
+[OMPL]: https://ompl.kavrakilab.org
+[OpEn]: https://alphaville.github.io/optimization-engine/
+[OpenRMF]: https://www.open-rmf.org
+[OpenRR]: https://github.com/openrr/openrr
+[PCL]: https://pointclouds.org
+[robo-gym]: https://www.robogym.net
+[ROS]: https://ros.org/
+[ros2ai]: https://github.com/fujitatomoya/ros2ai
+[Turtlebot]: https://www.turtlebot.com
+[webviz]: https://webviz.io
+[YARP]: https://www.yarp.it/latest/
+[Zenoh]: https://zenoh.io/
+[FOSDEM Code of Conduct]: https://fosdem.org/2026/practical/conduct/
+[CC-BY]: https://creativecommons.org/licenses/by/2.0/be/deed.en
