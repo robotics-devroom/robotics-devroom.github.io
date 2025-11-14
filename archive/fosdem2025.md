@@ -5,9 +5,9 @@ title: Robotics and Simulation devroom at FOSDEM 2025
 
 # First edition of the Robotics and Simulation devroom at FOSDEM 2025
 
-<img width="1518" height="864" alt="image" src="https://github.com/user-attachments/assets/cdb79640-6a9f-4cb3-a59c-c255ccb64e31" />
+<img width="759" height="432" alt="image" src="https://github.com/user-attachments/assets/cdb79640-6a9f-4cb3-a59c-c255ccb64e31" />
 
-Image source: https://www.bitcraze.io/wp-content/uploads/2025/02/image.png
+[Image source](https://www.bitcraze.io/wp-content/uploads/2025/02/image.png)
 
 # Stats
 
@@ -22,16 +22,16 @@ Image source: https://www.bitcraze.io/wp-content/uploads/2025/02/image.png
 
 # Call for Papers
 
-* https://lists.fosdem.org/pipermail/fosdem/2024q4/003576.html
+* [Call for Papers 2025] (https://lists.fosdem.org/pipermail/fosdem/2024q4/003576.html)
 
 # Schedule
 
-* https://archive.fosdem.org/2025/schedule/track/robotics/
+* [Schedule 2025](https://archive.fosdem.org/2025/schedule/track/robotics/)
 
 Video recordings can be found on the individual talk pages.  
 
 # Summary
 
-* Arnaud's blog-post about the event: https://www.bitcraze.io/2025/02/fosdem-25/
-* Ramon's FOSDEM 2025 post event report: https://dronecode.org/fosdem-2025-post-event-report/
-* Ekumen at FOSDEM 2025: https://ekumenlabs.com/blog/posts/accelerate-robotic-dev-sim/
+* [Arnaud's blog-post about the event](https://www.bitcraze.io/2025/02/fosdem-25/)
+* [Ramon's FOSDEM 2025 post event report] (https://dronecode.org/fosdem-2025-post-event-report/)
+* [Ekumen at FOSDEM 2025] (https://ekumenlabs.com/blog/posts/accelerate-robotic-dev-sim/)
