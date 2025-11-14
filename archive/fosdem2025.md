@@ -33,3 +33,5 @@ Video recordings can be found on the individual talk pages.
 # Summary
 
 * Arnaud's blog-post about the event: https://www.bitcraze.io/2025/02/fosdem-25/
+* Ramon's FOSDEM 2025 post event report: https://dronecode.org/fosdem-2025-post-event-report/
+* Ekumen at FOSDEM 2025: https://ekumenlabs.com/blog/posts/accelerate-robotic-dev-sim/
