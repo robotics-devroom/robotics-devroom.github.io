@@ -12,3 +12,9 @@ This site has been setup to host the CfP for the devroom as well as various info
 The Robotics and Simulation devroom will take place at Fosdem 2026 in Brussels, Belgium, on Saturday, January 31 2026.
 
 If you are interested in presenting at the devroom, have a look a the [Call for Participation](cfp/fosdem26).
+
+---
+
+### Past editions
+
+* [FOSDEM 2025](archive/fosdem2025)
