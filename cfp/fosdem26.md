@@ -13,7 +13,7 @@ The Robotics and Simulation devroom spotlights core libraries, frameworks, simul
 
 Robotics is inherently interdisciplinary, so our scope is intentionally broad while respecting neighboring FOSDEM devrooms. To help you tune your proposal, here are key areas of interest:
 * Core robotics libraries and applications: mapping, planning, localization, perception, and control. Examples include [Cartographer], [OMPL], [grid_map], [Octomap], [PCL], [OpEn], [OpenRMF].
-* Frameworks for building robotics applications: [ROS], [Dora-RS], [OpenRR], [YARP], [Zenoh], [Copper-rs], [iceoryx].
+* Frameworks for building robotics applications: [ROS], [Dora-RS], [OpenRR], [YARP], [Zenoh], [Copper-rs], [iceoryx], [PX4 Autopilot], [Ardupilot].
 * Simulation software: dedicated tools like [Gazebo], [Coppelia], [Isaac Sim], plus creative uses of general engines such as [Bevy], [Godot], [MuJoCo].
 * DevOps and developer tooling specific to robotics: e.g. visualization, logging, data formats—[webviz], [MCAP].
 * Open-source-friendly hardware platforms: [Arduino], [Crazyflie], [Turtlebot].
@@ -60,6 +60,7 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 
 
 [Arduino]: https://arduino.cc
+[Ardupilot]: https://github.com/ardupilot/ardupilot
 [Bevy]: https://bevyengine.org/
 [Cartographer]: https://google-cartographer.readthedocs.io
 [Coppelia]: https://manual.coppeliarobotics.com/
@@ -81,6 +82,7 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [OpenRMF]: https://www.open-rmf.org
 [OpenRR]: https://github.com/openrr/openrr
 [PCL]: https://pointclouds.org
+[PX4 Autopilot]: https://github.com/px4/px4-autopilot/
 [robo-gym]: https://www.robogym.net
 [ROS]: https://ros.org/
 [ros2ai]: https://github.com/fujitatomoya/ros2ai
@@ -90,3 +92,5 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [Zenoh]: https://zenoh.io/
 [FOSDEM Code of Conduct]: https://fosdem.org/2026/practical/conduct/
 [CC-BY]: https://creativecommons.org/licenses/by/2.0/be/deed.en
+
+
