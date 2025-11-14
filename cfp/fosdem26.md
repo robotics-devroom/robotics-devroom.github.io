@@ -5,9 +5,9 @@ title: Call for Participation 2026
 
 # FOSDEM 2026 Call for Participation
 
-We're excited to host the second 'Robotics and Simulation' devroom at FOSDEM 2026 for a **full-day event** on Saturday, January 31. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
+We're excited to host the second 'Robotics and Simulation' developer room at [FOSDEM 2026](https://fosdem.org/2026/) for a **full-day event** on Saturday, January 31. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
 
-The Robotics and Simulation devroom spotlights core libraries, frameworks, simulation tooling, and open-source robotic platforms. Selected talks will highlight foundational capabilities alongside emerging AI-driven approaches, celebrating practical advancements and lessons learned. Expect focused presentations, a lightning talk burst, and a demo session — each designed to share real work and spark collaboration.
+The Robotics and Simulation developer room spotlights core libraries, frameworks, simulation tooling, and open-source robotic platforms. Selected talks will highlight foundational capabilities alongside emerging AI-driven approaches, celebrating practical advancements and lessons learned. Expect focused presentations, a lightning talk burst, and a demo session — each designed to share real work and spark collaboration.
 
 ## Scope of Talks
 
@@ -15,7 +15,7 @@ Robotics is inherently interdisciplinary, so our scope is intentionally broad wh
 * Core robotics libraries and applications: mapping, planning, localization, perception, and control. Examples include [Cartographer], [OMPL], [grid_map], [Octomap], [PCL], [OpEn], [OpenRMF].
 * Frameworks for building robotics applications: [ROS], [Dora-RS], [OpenRR], [YARP], [Zenoh], [Copper-rs], [iceoryx], [PX4 Autopilot], [Ardupilot].
 * Simulation software: dedicated tools like [Gazebo], [Coppelia], [Isaac Sim], plus creative uses of general engines such as [Bevy], [Godot], [MuJoCo].
-* DevOps and developer tooling specific to robotics: e.g. visualization, logging, data formats—[webviz], [MCAP].
+* DevOps and developer tooling specific to robotics: e.g. visualization, logging, data formats—[webviz], [MCAP], [RVIZ2], [PlotJuggler].
 * Open-source-friendly hardware platforms: [Arduino], [Crazyflie], [Turtlebot].
 * Robotic products and applied open-source stacks, including AI/LLM-driven methods for skill acquisition or control: [dora-rs], [ros2ai], [robo-gym], [LeRobot].
 
@@ -43,7 +43,7 @@ When submitting your proposal, select 'Robotics and Simulation' from the track d
 The conference language is English. By participating in the event, you agree to the publication of your recordings, slides and other content provided under the Creative Commons Attribution ([CC-BY]) license. By participating in FOSDEM, you are required to adhere to the [FOSDEM Code of Conduct].
 
 ## New to FOSDEM? Quick Primer
-* What: FOSDEM is a free (no registration fee) community-driven conference about Free and Open Source Software, held annually in Brussels.
+* What: [FOSDEM](https://fosdem.org/2026/) is a free (no registration fee) community-driven conference about Free and Open Source Software, held annually in Brussels.
 * Cost: Attendance is free; you cover your own travel, food, and accommodation. Hotels fill fast—book early.
 * Format: Parallel devrooms, main tracks, lightning talks, stands, and lots of hallway conversations.
 * Getting Around: Venue is walkable; expect busy corridors. Pack a reusable water bottle and label your laptop.
@@ -82,7 +82,9 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [OpenRMF]: https://www.open-rmf.org
 [OpenRR]: https://github.com/openrr/openrr
 [PCL]: https://pointclouds.org
+[Plotjuggler]: https://plotjuggler.io/
 [PX4 Autopilot]: https://github.com/px4/px4-autopilot/
+[RVIZ2]: https://github.com/ros2/rviz
 [robo-gym]: https://www.robogym.net
 [ROS]: https://ros.org/
 [ros2ai]: https://github.com/fujitatomoya/ros2ai
