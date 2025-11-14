@@ -5,9 +5,9 @@ title: Call for Participation 2026
 
 # FOSDEM 2026 Call for Participation
 
-We're excited to host the second Robotics and Simulation devroom at FOSDEM 2026 on Saturday, January 31. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
+We're excited to host the second 'Robotics and Simulation' devroom at FOSDEM 2026 for a **full-day event** on Saturday, January 31. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
 
-The Robotics and Simulation devroom spotlights core libraries, frameworks, simulation tooling, and open-source robotic platforms. Selected talks will highlight foundational capabilities alongside emerging AI-driven approaches, celebrating practical advancements and lessons learned. Expect focused presentations, a lightning talk burst, and a demo session—each designed to share real work and spark collaboration.
+The Robotics and Simulation devroom spotlights core libraries, frameworks, simulation tooling, and open-source robotic platforms. Selected talks will highlight foundational capabilities alongside emerging AI-driven approaches, celebrating practical advancements and lessons learned. Expect focused presentations, a lightning talk burst, and a demo session — each designed to share real work and spark collaboration.
 
 ## Scope of Talks
 
@@ -22,9 +22,9 @@ Robotics is inherently interdisciplinary, so our scope is intentionally broad wh
 These examples are illustrative, not limiting. You can present improvements to any listed project, novel uses, emerging alternatives at any maturity level, or something entirely different. If in doubt—submit!
 
 ## Key Dates
-* 1st of December: Proposals submission deadline
-* 15th December: Announcement of selected talks
-* 31st January: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
+* December  1: Proposals submission deadline
+* December 15: Announcement of selected talks
+* January  31, 2026: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
 
 ## Talk formats
 * Full length talk: 40 mins + 5 mins for Q&A
@@ -60,6 +60,7 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 
 
 [Arduino]: https://arduino.cc
+[Ardupilot]: https://github.com/ardupilot/ardupilot
 [Bevy]: https://bevyengine.org/
 [Cartographer]: https://google-cartographer.readthedocs.io
 [Coppelia]: https://manual.coppeliarobotics.com/
@@ -81,6 +82,7 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [OpenRMF]: https://www.open-rmf.org
 [OpenRR]: https://github.com/openrr/openrr
 [PCL]: https://pointclouds.org
+[PX4 Autopilot]: https://github.com/px4/px4-autopilot/
 [robo-gym]: https://www.robogym.net
 [ROS]: https://ros.org/
 [ros2ai]: https://github.com/fujitatomoya/ros2ai
@@ -90,5 +92,5 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [Zenoh]: https://zenoh.io/
 [FOSDEM Code of Conduct]: https://fosdem.org/2026/practical/conduct/
 [CC-BY]: https://creativecommons.org/licenses/by/2.0/be/deed.en
-[PX4 Autopilot]: https://github.com/px4/px4-autopilot/
-[Ardupilot]: https://github.com/ardupilot/ardupilot
+
+
