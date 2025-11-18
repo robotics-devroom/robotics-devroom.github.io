@@ -5,7 +5,7 @@ title: Robotics and Simulation devroom at FOSDEM 2025
 
 # First edition of the Robotics and Simulation devroom at FOSDEM 2025
 
-<img width="759" height="432" alt="image" src="https://github.com/user-attachments/assets/cdb79640-6a9f-4cb3-a59c-c255ccb64e31" />
+<img width="759" height="432" alt="image" src="fosdem_2025_mosaic_small.jpg" />
 
 [Image source](https://www.bitcraze.io/wp-content/uploads/2025/02/image.png)
 
