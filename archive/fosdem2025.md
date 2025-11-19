@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robotics and Simulation devroom at FOSDEM 2025
+title: FOSDEM 2025
 ---
 
 # First edition of the Robotics and Simulation devroom at FOSDEM 2025
@@ -30,7 +30,7 @@ title: Robotics and Simulation devroom at FOSDEM 2025
 
 Video recordings can be found on the individual talk pages.  
 
-# Summary
+# Summaries of this event
 
 * [Arnaud's blog-post about the event](https://www.bitcraze.io/2025/02/fosdem-25/)
 * [Ramon's FOSDEM 2025 post event report](https://dronecode.org/fosdem-2025-post-event-report/)
