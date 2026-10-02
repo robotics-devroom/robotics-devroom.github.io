@@ -1,4 +1,4 @@
-  ---
+---
 layout: page
 title: FOSDEM 2026
 ---
