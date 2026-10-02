@@ -13,7 +13,7 @@ title: FOSDEM 2025
 
 * Date: Sunday, February 2, 2025
 * Format: Half-day event
-* Talks
+* 13 Talks
   * 6 Medium length talks (20 min + 5 min Q&A)
   * 7 Lightning talks (5 min)
 * No of speakers: 16
