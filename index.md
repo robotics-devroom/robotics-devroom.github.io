@@ -13,6 +13,8 @@ If our proposal will be accepted, the next Robotics and Simulation devroom will 
 
 If you are interested in presenting at the devroom, have a look at last years [Call for Participation](cfp/fosdem26). We will post a similar CfP if our devroom is accepted.
 
+![robbie](robbie_fosdem.png)
+
 ---
 
 ### Past editions
