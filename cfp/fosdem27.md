@@ -23,7 +23,7 @@ Robotics is inherently interdisciplinary, so our scope is intentionally broad wh
 These examples are illustrative, not limiting. You can present improvements to any listed project, novel uses, emerging alternatives at any maturity level, or something entirely different. If in doubt—submit\!
 
 If you are submiting a talk, we would also very much encourage you to propose a live demo of an actual robotic platform if you can.
-We all love robots in this room, so let's show them off.
+We all love robots in this room, so lets show them off.
 
 ## Key Dates
 
