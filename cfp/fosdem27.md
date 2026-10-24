@@ -1,3 +1,8 @@
+---
+layout: page
+title: Call for Participation 2027
+---
+
 # FOSDEM 2027 Call for Participation
 
 We’re excited to host the 3rd ‘Robotics and Simulation’ developer room at [FOSDEM 2027](https://fosdem.org/2027) for a **full-day event** on Sunday, January 31\. If you build, simulate, deploy, or hack on robots (or the tools that make all that possible), this is your stage.
