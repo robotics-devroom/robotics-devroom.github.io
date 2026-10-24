@@ -31,6 +31,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Pages listed in the site header, in order.
+header_pages:
+  - about.md
+  - cfp.md
+  - archive/fosdem2025.md
+  - archive/fosdem2026.md
+  - cfp/fosdem27.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -94,5 +94,3 @@ If this is your first FOSDEM talk, that's fine—great ideas matter more than pr
 [Zenoh]: https://zenoh.io/
 [FOSDEM Code of Conduct]: https://fosdem.org/2026/practical/conduct/
 [CC-BY]: https://creativecommons.org/licenses/by/2.0/be/deed.en
-
-

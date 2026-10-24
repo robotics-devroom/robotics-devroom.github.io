@@ -9,9 +9,9 @@ layout: home
 Welcome to the FOSDEM Robotics and Simulation devroom website.
 This site has been setup to host the CfP for the devroom as well as various information about it.
 
-If our proposal will be accepted, the next Robotics and Simulation devroom will take place at FOSDEM 2027 in Brussels, Belgium, on Saturday, January 30 2027.
+The next Robotics and Simulation devroom will take place at FOSDEM 2027 in Brussels, Belgium, on Sunday, January 31 2027.
 
-If you are interested in presenting at the devroom, have a look at last years [Call for Participation](cfp/fosdem26). We will post a similar CfP if our devroom is accepted.
+If you are interested in presenting at the devroom, have a look at last years [Call for Participation](cfp/fosdem27). We will post a similar CfP if our devroom is accepted.
 
 ![robbie](robbie_fosdem.png)
 
