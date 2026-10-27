@@ -26,9 +26,9 @@ If you are submitting a talk, we would also very much encourage you to propose a
 
 ## Key Dates
 
-* November 23, 2026: Proposals submission deadline.
-* December 7, 2026: Announcement of selected talks. 
-* January 31, 2027: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
+* **November 23, 2026**: Proposals submission deadline.
+* **December 7, 2026**: Announcement of selected talks. 
+* **January 31, 2027**: Robotics and Simulation devroom at FOSDEM, you must be available onsite (in Brussels, Belgium) to present your talk.
 
 ## Talk formats
 
